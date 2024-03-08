@@ -3,3 +3,26 @@
 <app-button [backgroundColor]="'blue'" [fontSize]="'30px'"></app-button>
 <app-button [backgroundColor]="'yellow'" [fontSize]="'40px'"></app-button>
 <app-button [backgroundColor]="'purple'"></app-button>
+
+<p>{{ message }}</p>
+
+<app-button2
+  [buttonName]="'Bouton 1'"
+  (buttonClick)="onButtonClick($event)"
+></app-button2>
+<app-button2
+  [buttonName]="'Bouton 2'"
+  (buttonClick)="onButtonClick($event)"
+></app-button2>
+<app-button2
+  [buttonName]="'Bouton 3'"
+  (buttonClick)="onButtonClick($event)"
+></app-button2>
+<app-button2
+  [buttonName]="'Bouton 4'"
+  (buttonClick)="onButtonClick($event)"
+></app-button2>
+<app-button2
+  [buttonName]="'Bouton 5'"
+  (buttonClick)="onButtonClick($event)"
+></app-button2>
